@@ -8,9 +8,8 @@ if($_SESSION['admin']=="")
 ?>
 <html>
 <head>
-<link href="css\patient.css" rel="stylesheet"  type="text/css">
+<link href="css\app.css" rel="stylesheet"  type="text/css">
 </head>
-
 <body>
 <div id="outer">
 <div id="sidemenu">
@@ -27,24 +26,20 @@ if($_SESSION['admin']=="")
 <li><a href="logout.php">Logout</a></li><br/>
 </div>
 </div>
-<div id="header">Patients<br/><span style="font-size:30px;"><?php echo $_SESSION['admin'];?></span></div>
-<center>
+<div id="header">Appointment <br/><span style="font-size:30px;"><?php echo $_SESSION['admin'];?></span></div>
+<div id="ans">
 <?php
 include("connect.php");
-$query="select * from tbl_patient";
+$query="select * from tbl_appointment";
 $res=mysql_query($query);
 ?>
-<table border="1" style="border-collapse: collapse; width:autopx;">
+<table border="1" style="border-collapse: collapse; width:100%;">
 <tr>
 <th>S.No</th>
+<th>Dr.Name</th>
 <th>Patient Name</th>
-<th>F'name</th>
-<th>Gender</th>
-<th>Email</th>
-<th>Password</th>
-<th>Pin Code</th>
-<th>Address</th>
-<th>Mobile</th>
+<th>Date of appointment</th>
+<th>Status</th>
 <th>Date</th>
 </tr>
 <?php
@@ -53,18 +48,30 @@ while($row=mysql_fetch_array($res,MYSQL_BOTH))
 {
 ?>
 <tr>
-<td  style="background-color:#1c2a48;color:white;"><?php echo $a;?></td>
-<td><?php echo $row['name'];?></td>
-<td><?php echo $row['fname'];?></td>
-<td><?php echo $row['gender'];?></td>
-<td><?php echo $row['email'];?></td>
-<td><?php echo $row['password'];?></td>
-<td><?php echo $row['pincode'];?></td>
-<td><?php echo $row['address'];?></td>
-<td><?php echo $row['contact'];?></td>
-
+<td style="background-color:#1c2a48;color:white;"><?php echo $a;?></td>
+<?php 
+$ddid=$row['docid'];
+$query2="select * from tbl_doctor where docid='$ddid'";
+$res2=mysql_query($query2);
+if($row2=mysql_fetch_array($res2,MYSQL_BOTH))
+{
+	$dname=$row2['name'];
+}
+?>
+<td><?php echo $dname;?></td>
+<?php 
+$ppid=$row['ptid'];
+$query3="select * from tbl_patient where ptid='$ppid'";
+$res3=mysql_query($query3);
+if($row3=mysql_fetch_array($res3,MYSQL_BOTH))
+{
+	$pname=$row3['name'];
+}
+?>
+<td><?php echo $pname;?></td>
+<td><?php echo $row['doa'];?></td>
+<td><?php echo $row['status'];?></td>
 <td><?php echo $row['date'];?></td>
-
 </tr>
 <?php
 $a++;

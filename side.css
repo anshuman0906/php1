@@ -1,0 +1,271 @@
+*
+{
+	font-family:century gothic;
+}
+#outer
+{
+	height:autopx;
+	width:autopx;
+	border:1px solid transparent;
+}
+#sidemenu
+{
+height:950px;
+width:300px;
+background-color:#333333;
+border:1px solid transparent;
+float:left;
+}
+#logo
+{
+	height:100px;
+	width:100px;
+	border-radius:50px;
+	border:1px solid transparent;
+	margin-left:100px;
+	margin-top:10px;
+}
+#menu
+{
+margin-top:px;
+border:1px solid transparent;
+}
+#menu ul
+{
+	list-style-type:none;
+}
+#menu ul li
+{
+	text-decoration:none;
+	
+	text-align:center;
+	margin-left:-38px;
+	margin-top:15px;
+	padding:8px;
+	
+}
+#menu ul li a
+{
+	color:white;
+	font-size:20px;
+	font-family:century gothic;
+	
+}
+#menu ul li a:hover
+{
+font-size:24px;
+transition:0.7s ease;
+}	
+#menu ul li:hover
+{
+	background-color:#5f6368;
+	transition:0.7s ease;
+}
+#header
+{
+	height:100px;
+	width:autopx;
+	border:1px solid transparent;
+	background-color:#393c48;
+	color:white;
+	text-align:center;
+	font-size:50px;
+}
+	#one
+	{
+		height:250px;
+		width:autopx;
+		border:1px solid transparent;
+	
+	}
+	#onea
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:65px;
+		margin-top:15px;
+		
+			background-color:#4a8af4;
+			color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#oneb
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:60px;
+		margin-top:15px;
+			background-color:#1c7f4f;
+			color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#onec
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:60px;
+		margin-top:15px;
+		background-color:#ffcd42;
+		color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#oned
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:65px;
+		margin-top:15px;
+		background-color:#dd4f43;
+		color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#two
+	{
+		height:250px;
+		width:autopx;
+		border:1px solid transparent;
+	}
+	#twoa
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:60px;
+		margin-top:15px;
+			background-color:#4a8af4;
+			color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#twob
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:60px;
+		margin-top:15px;
+			background-color:#1c7f4f;
+			color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#twoc
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:65px;
+		margin-top:15px;
+		background-color:#ffcd42;
+		color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#twod
+	{
+		
+		height:250px;
+		width:250px;
+		border:1px solid transparent;
+		float:left;
+		margin-left:60px;
+		margin-top:15px;
+		background-color:#dd4f43;
+		color:white;
+			font-size:30px;
+			text-align:center;
+	}
+	#t
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+		border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#k
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+	border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#i
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+		border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#u
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+		border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#x
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+		border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#y
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+	border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#q
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+		border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}
+	#z
+	{
+		height:150px;
+		width:150px;
+		margin-left:50px;
+		border:1px solid transparent;
+		margin-top:20px;
+		border-radius:90px;
+	}

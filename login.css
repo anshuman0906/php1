@@ -1,0 +1,52 @@
+#outer
+{
+height:autopx;
+width:autopx;
+}
+#log
+{
+height:650px;
+width:autopx;
+border:1px solid transparent
+}
+form
+{
+	height:300px;
+	width:500px;
+	margin-left:400px;
+	margin-top:150px;
+	background:rgb(0,0,0,0.8);
+	border:1px solid transparent;
+}
+input
+{
+	height:30px;
+	width:300px;
+	border:none;
+	outline:none;
+	background:transparent;
+	color:white;
+	border-bottom:1px solid white;
+	margin-left:100px;
+	margin-top:10px;
+	
+}
+#in
+{
+	margin-top:130px;
+}
+#lo
+{
+	height:100px;
+	width:100px;
+	border-radius:50px;
+	margin-left:190px;
+	margin-top:-110px;
+	border:1px solid transparent;
+}
+#f
+{
+	margin-left:200px;
+	margin-top:20px;
+	
+}
